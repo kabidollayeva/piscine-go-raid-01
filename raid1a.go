@@ -1,8 +1,9 @@
-package piscine
+package student
 
 import "github.com/01-edu/z01"
 
 func Raid1a(x, y int) {
+
 	for i := 1; i <= y; i++ {
 		for j := 1; j <= x; j++ {
 			if (i == 1 && j == 1) || (i == 1 && j == x) || (i == y && j == 1) || (i == y && j == x) {
